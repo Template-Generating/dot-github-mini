@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# cd "$(dirname "$0")"
+
+if [ -d ~/.github ]; then
+  cp -rf ~/.github/ $PWD
+  echo "Complete: cloned"
+else 
+  echo "Error: no template"
+fi
