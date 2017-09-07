@@ -3,7 +3,8 @@
 # cd "$(dirname "$0")"
 
 if [ -d ~/.github ]; then
-  cp -rf ~/.github/ $PWD
+  cp -rf ~/.github $PWD
+  rm -rf ./.github/dotgithub
   echo "Complete: cloned"
 else 
   echo "Error: no template"
