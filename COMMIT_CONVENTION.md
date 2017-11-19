@@ -1,13 +1,13 @@
-## Git Commit Message Convention
+# Git Commit Message Convention
 
 > This is adapted from [Angular's commit convention](https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/convention.md).
 
-#### Examples
+## Examples
 
 Appears under "Features" header, `compiler` subheader:
 
 ```
-feat(compiler): add 'comments' option
+feature(compiler): add 'comments' option
 ```
 
 Appears under "Bug Fixes" header, `v-model` subheader, with a link to issue #28:
@@ -26,15 +26,7 @@ perf(core): improve vdom diffing by removing 'foo' option
 BREAKING CHANGE: The 'foo' option has been removed.
 ```
 
-The following commit and commit `667ecc1` do not appear in the changelog if they are under the same release. If not, the revert commit appears under the "Reverts" header.
-
-```
-revert: feat(compiler): add 'comments' option
-
-This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
-```
-
-### Full Message Format
+## Full Message Format
 
 A commit message consists of a **header**, **body** and **footer**.  The header has a **type**, **scope** and **subject**:
 
@@ -47,10 +39,6 @@ A commit message consists of a **header**, **body** and **footer**.  The header 
 ```
 
 The **header** is mandatory and the **scope** of the header is optional.
-
-### Revert
-
-If the commit reverts a previous commit, it should begin with `revert: `, followed by the header of the reverted commit. In the body it should say: `This reverts commit <hash>.`, where the hash is the SHA of the commit being reverted.
 
 ### Type
 
@@ -66,7 +54,7 @@ The scope could be anything specifying place of the commit change. For example `
 
 The subject contains succinct description of the change:
 
-* use the imperative, present tense: "change" not "changed" nor "changes"
+* use the imperative, **present tense**: "change" not "changed" nor "changes"
 * don't capitalize first letter
 * no dot (.) at the end
 
