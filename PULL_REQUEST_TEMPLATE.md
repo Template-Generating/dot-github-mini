@@ -1,18 +1,73 @@
-## What kind of change does this PR introduce? (check at least one)
-- [ ] Bugfix
-- [ ] Feature
-- [ ] Code style update
-- [ ] Refactor
-- [ ] Build-related changes
-- [ ] Other, please describe: ...
+# What kind of change does this PR introduce? (uncomment at least one)
 
-## Description
+<!-- - `Bug-fix` -->
+<!-- - `Feature` -->
+<!-- - `Refactor` -->
+<!-- - `Document` -->
+
+<!------------------------------------------------>
+<!-- uncomment if type is `bug`
+## Bug Description
+
 ...
 
-## The PR fulfills these requirements:
+Issue number: #1
+
+## Checklist requirements
+
 - [ ] requirement 1
 - [ ] requirement 2
-- [ ] requirement 3
 
-## Other information:
+## Comment
+
 ...
+-->
+
+<!------------------------------------------------>
+<!-- uncomment if type is `feature`
+## Feature Description
+
+...
+
+Issue number: #1
+
+## Example
+
+...
+
+## Checklist requirements
+
+- [ ] test passed
+- [ ] merge with latest `develop` branch
+
+## Comment
+
+...
+-->
+
+<!------------------------------------------------>
+<!-- uncomment if type is `refactor`
+## Refactor Description
+
+...
+
+## Checklist requirements
+
+- [ ] test passed
+- [ ] merge with latest `develop` branch
+
+## Comment
+
+...
+-->
+
+<!------------------------------------------------>
+<!-- uncomment if type is `document`
+## Document Description
+
+...
+
+## Comment
+
+...
+-->
